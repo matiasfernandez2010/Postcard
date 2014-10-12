@@ -13,6 +13,8 @@
 		4971B4C619EA2A0A00C2DA34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4971B4C519EA2A0A00C2DA34 /* Images.xcassets */; };
 		4971B4C919EA2A0A00C2DA34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4971B4C719EA2A0A00C2DA34 /* LaunchScreen.xib */; };
 		4971B4D519EA2A0A00C2DA34 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4971B4D419EA2A0A00C2DA34 /* PostcardTests.swift */; };
+		4971B4DF19EA3DED00C2DA34 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4971B4DE19EA3DED00C2DA34 /* SagradaFamilia.jpeg */; };
+		4971B4E119EAECA200C2DA34 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4971B4E019EAECA200C2DA34 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		4971B4CE19EA2A0A00C2DA34 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4971B4D319EA2A0A00C2DA34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4971B4D419EA2A0A00C2DA34 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		4971B4DE19EA3DED00C2DA34 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		4971B4E019EAECA200C2DA34 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		4971B4BC19EA2A0A00C2DA34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4971B4DE19EA3DED00C2DA34 /* SagradaFamilia.jpeg */,
+				4971B4E019EAECA200C2DA34 /* AlbertEinsteinStamp.jpg */,
 				4971B4BD19EA2A0A00C2DA34 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4971B4C419EA2A0A00C2DA34 /* Main.storyboard in Resources */,
+				4971B4DF19EA3DED00C2DA34 /* SagradaFamilia.jpeg in Resources */,
+				4971B4E119EAECA200C2DA34 /* AlbertEinsteinStamp.jpg in Resources */,
 				4971B4C919EA2A0A00C2DA34 /* LaunchScreen.xib in Resources */,
 				4971B4C619EA2A0A00C2DA34 /* Images.xcassets in Resources */,
 			);
@@ -338,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Postcard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
